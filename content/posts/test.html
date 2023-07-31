@@ -1,0 +1,26 @@
+---
+title: "Test"
+date: 2023-07-31T10:19:15+02:00
+draft: false
+---
+
+<!-- Start -->
+<div class="page">
+    {{% inner %}}Test{{% /inner %}}
+    <hr>
+    {{< inner>}}Test{{< /inner>}}
+    <hr>
+    No **markdown** expected here
+    <hr>
+    {{< inner >}}Test{{< /inner >}}
+    {{% outer %}}
+        {{% inner %}}Test{{% /inner %}}
+        <hr>
+        {{< inner >}}Test{{< /inner >}}
+        <hr>
+        No **markdown** expected here
+        <hr>
+        {{% inner %}}No **markdown** expected here{{% /inner %}}
+    {{% /outer %}}
+</div>
+<!-- END -->
