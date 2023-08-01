@@ -8,9 +8,9 @@ Demonstrates an issue with Hugo shortcodes loosing their "html context" when get
 
 Files of interest:
 
-- `layouts/shortcodes/outer.html`
-- `layouts/shortcodes/inner.html`
-- `content/posts/test.md`
+- [`layouts/shortcodes/outer.html`](themes/ananke/layouts/shortcodes/outer.html)
+- [`layouts/shortcodes/inner.html`](themes/ananke/layouts/shortcodes/inner.html)
+- [`content/posts/test.html`](content/posts/test.html)
 
 ## Expected behavior
 
