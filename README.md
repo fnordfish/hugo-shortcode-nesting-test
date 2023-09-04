@@ -1,5 +1,8 @@
 Demonstrates an issue with Hugo shortcodes loosing their "html context" when getting nested.
 
+* Hugo GitHub issue: https://github.com/gohugoio/hugo/issues/11298
+* Hugo Forum: https://discourse.gohugo.io/t/nested-shortcodes-render-markdown-in-html-content-file/45536
+
 ## Steps to reproduce
 
 0. Clone this repo
